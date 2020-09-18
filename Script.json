@@ -1,0 +1,160 @@
+{
+  "Characters": {
+    "Character1": {
+      "Gender": "F",
+      "Name": "SHE",
+      "Pace": "Fast/Slow"
+    },
+    "Character2": {
+      "Gender": "M",
+      "Name": "HANSEL",
+      "Pace": "Fast/Slow"
+    },
+    "Character3": {
+      "Gender": "F",
+      "Name": "GRETEL",
+      "Pace": "Fast/Slow"
+    },
+    "Narrator": {
+      "Gender": "M",
+      "Name": "ABCD",
+      "Pace": "Fast/Slow"
+    }
+  },
+  "Scene2": {
+    "Dialogue": {
+      "D1": {
+        "Dialogue_sentiment": "Positive/Negative/Default",
+        "Dialogue_Words": "Take them miles from home, so far that they can never find their way back! Maybe someone will find them and give them a home.",
+        "Dialgoue_Character": "SHE"
+      }
+    },
+    "Narration": {
+      "N1": {
+        "Narration_Sentiment": "Positive/Negative/Default",
+        "Narration_Words": "And she[] keeps on trying to persuade her husband to abandon his children in the forest.",
+        "Narrator_name": "ABCD"
+      },
+      "N2": {
+        "Narration_Sentiment": "Positive/Negative/Default",
+        "Narration_Words": "The downcast woodcutter doesn't know what to do.",
+        "Narrator_name": "ABCD"
+      }
+    },
+    "Sequence": {
+      "S1": {
+        "Dialogue/Narration": "N1",
+        "Next_dialogue": "S2"
+      },
+      "S2": {
+        "Dialogue/Narration": "D1",
+        "Next_dialogue": "S3"
+      },
+      "S3": {
+        "Dialogue/Narration": "N2",
+        "Next_dialogue": "-"
+      }
+    },
+    "Set": {
+      "Location": "Forest",
+      "Setting": "Exterior",
+      "Time": "Day",
+      "Scene_Sentiment": "Positive/Negative",
+      "Number_Of_Dailogue": "3",
+      "Words_To_Speak": "-"
+    }
+  },
+  "Scene6": {
+    "Narration": {
+      "N1": {
+        "Narration_Sentiment": "Positive/Negative/Default",
+        "Narration_Words": "But as they goes into the depths of the trees, Hansel drops a little white pebble here and there on the mossy green ground. At a certain point, the two children find they really are alone: the woodcutter have plucked up enough courage to desert them, have mumbled an excuse and is gone.",
+        "Narrator_name": "ABCD"
+      }
+    },  
+    "Sequence": {
+        "S1": {
+          "Dialogue/Narration": "N1",
+          "Next_dailogue": "-"
+        }
+      },
+    "Set": {
+      "Location": "Forest",
+      "Setting": "Exterior",
+      "Time": "Day",
+      "Scene_Sentiment": "Positive/Negative",
+      "Number_Of_Dailogue": "1",
+      "Words_To_Speak": "-"
+    }
+  },
+  "Scene7": {
+    "Dialogue": {
+      "D1": {
+        "Dialgoue_Character": "HANSEL",
+        "Dialogue_sentiment": "Positive/Negative/Default",
+        "Dialogue_Words": "Don't cry, trust me! I swear I'll take you home even if Father doesn t  come back for us!"
+      },
+      "D2": {
+        "Dialgoue_Character": "HANSEL",
+        "Dialogue_sentiment": "Positive/Negative/Default",
+        "Dialogue_Words": "Now give me your hand!"
+      },
+      "D3": {
+        "Dialgoue_Character": "HANSEL",
+        "Dialogue_sentiment": "Positive/Negative/Default",
+        "Dialogue_Words": "We'll get home safely, you'll see!"
+      }
+    },
+    "Narration": {
+      "N1": {
+        "Narration_Sentiment": "Positive/Negative/Default",
+        "Narration_Words": "Night falls but the woodcutter does not return. Gretel begins to sob bitterly. Hansel too feels scared but he[' Hansel'] tries to hide his feelings and comfort his sister",
+        "Narrator_name": "ABCD"
+      },
+      "N2": {
+        "Narration_Sentiment": "Positive/Negative/Default",
+        "Narration_Words": "Luckily the moon is full that night and Hansel waits till its cold light filters through the trees.",
+        "Narrator_name": "ABCD"
+      },
+      "N3": {
+        "Narration_Sentiment": "Positive/Negative/Default",
+        "Narration_Words": "he says.",
+        "Narrator_name": "ABCD"
+      }
+    },
+    "Sequence": {
+      "S1": {
+        "Dialogue/Narration": "N1",
+        "Next_dialogue": "S2"
+      },
+      "S2": {
+        "Dialogue/Narration": "D1",
+        "Next_dialogue": "S3"
+      },
+      "S3": {
+        "Dialogue/Narration": "N2",
+        "Next_dialogue": "S4"
+      },
+      "S4": {
+        "Dialogue/Narration": "D2",
+        "Next_dialogue": "S5"
+      },
+      "S5": {
+        "Dialogue/Narration": "N3",
+        "Next_dialogue": "S6"
+      },
+      "S6": {
+        "Dialogue/Narration": "D3",
+        "Next_dialogue": "-"
+      }
+    },
+    "Set": {
+      "Location": "Forest",
+      "Number_Of_Dialogue": "6",
+      "Scene_Sentiment": "Positive/Negative",
+      "Setting": "Exterior",
+      "Time": "Night",
+      "Words_To_Speak": "-"
+    }
+  }
+}

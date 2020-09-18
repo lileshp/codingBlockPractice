@@ -1,0 +1,10 @@
+file D:\MNF\test\Scene2_D1.mp3
+file D:\MNF\test\Scene2_N1.mp3
+file D:\MNF\test\Scene2_N2.mp3
+file D:\MNF\test\Scene6_N1.mp3
+file D:\MNF\test\Scene7_D1.mp3
+file D:\MNF\test\Scene7_D2.mp3
+file D:\MNF\test\Scene7_D3.mp3
+file D:\MNF\test\Scene7_N1.mp3
+file D:\MNF\test\Scene7_N2.mp3
+file D:\MNF\test\Scene7_N3.mp3
